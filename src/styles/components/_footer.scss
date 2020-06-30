@@ -1,0 +1,35 @@
+.footer-list {
+  display: flex;
+  list-style: none;
+}
+
+.footer-list__item {
+  border: 1px solid #ffffff;
+  font-size: 18px;
+}
+
+.footer-list__item:not(:last-child) {
+  margin-right: 4px;
+}
+
+.footer-list__item-link {
+  color: white;
+  display: inline-block;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+.footer-list__item-link:hover {
+  background-color: white;
+  color: #444;
+}
+
+@media (max-width: 600px) {
+  .footer-list__item {
+    font-size: 16px;
+  }
+
+  .footer-list__item-link {
+    padding: 8px 14px;
+  }
+}

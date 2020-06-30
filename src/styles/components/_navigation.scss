@@ -1,0 +1,30 @@
+.navigation {
+  background-color: rgba(0, 0, 0, .7);
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+  border-top: 1px solid rgba(0, 0, 0, .3);
+  border-width: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0 10vw;
+}
+
+.navigation-header__link {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .navigation {
+    justify-content: center;
+  }
+
+  .header__image {
+    height: 100px;
+    width: 100px;
+  }
+}
