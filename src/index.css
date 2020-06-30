@@ -12,3 +12,21 @@ body {
   height: 100vh;
   width: 100vw;
 }
+
+.navigation {
+  background-color: rgba(0, 0, 0, .2);
+  border-bottom: 1px solid rgba(0, 0, 0, .5);
+  border-top: 1px solid rgba(0, 0, 0, .5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0 10vw;
+}
+
+.navigation-header__link {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+}
