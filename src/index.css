@@ -11,6 +11,7 @@ body {
   background-position: center center;
   backdrop-filter: blur(10px);
   height: 100vh;
+  max-height: 100vh;
   width: 100vw;
 }
 
@@ -68,4 +69,30 @@ body {
   border-radius: 50%;
   height: 150px;
   width: 150px;
+}
+
+.footer-list {
+  display: flex;
+  list-style: none;
+}
+
+.footer-list__item {
+  border: 1px solid white;
+  font-size: 18px;
+}
+
+.footer-list__item:not(:last-child) {
+  margin-right: 4px;
+}
+
+.footer-list__item-link {
+  color: white;
+  display: inline-block;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+.footer-list__item-link:hover {
+  background-color: white;
+  color: #444;
 }

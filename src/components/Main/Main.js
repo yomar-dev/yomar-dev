@@ -1,11 +1,11 @@
 import React from 'react';
-
+import Footer from '../Footer/Footer';
 
 function Main() {
   return (
     <main className="main">
       <header className="header">
-        <img src={require("../../assets/images/profile.jpeg")} className="header__image" />
+        <img src={require("../../assets/images/profile.jpeg")} className="header__image" alt="Yomar" />
       </header>
 
       <article className="main-content">
@@ -14,6 +14,8 @@ function Main() {
           Frontend developer | <span>@yomar-dev</span>
         </p>
       </article>
+
+      <Footer />
     </main>
   )
 }

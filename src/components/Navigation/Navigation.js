@@ -5,7 +5,7 @@ function Navigation() {
   return (
     <nav className="navigation">
       <div className="navigation-header">
-        <a href="#" className="navigation-header__link">Yomar Miranda</a> 
+        <span className="navigation-header__link">Yomar Miranda</span> 
       </div>
     </nav>
   )
