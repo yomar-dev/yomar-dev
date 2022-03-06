@@ -34,7 +34,6 @@
   <img alt="Firebase" src="https://img.shields.io/badge/-Firebase-F7B93E?style=flat-square&logo=firebase&logoColor=white" />
   <img alt="MySQL" src="https://img.shields.io/badge/-MySQL-005C84?style=flat-square&logo=mysql&logoColor=white" />
   <img alt="Postman" src="https://img.shields.io/badge/-Postman-E66637?style=flat-square&logo=postman&logoColor=white" />
-  <img alt="MySQL" src="https://img.shields.io/badge/-MySQL-005C84?style=flat-square&logo=mysql&logoColor=white" />
   
   <!--
   <img alt="Webpack" src="https://img.shields.io/badge/-Webpack-8DD6F9?style=flat-square&logo=webpack&logoColor=white" /> 
